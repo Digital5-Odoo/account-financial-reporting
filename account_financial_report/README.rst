@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 =========================
 Account Financial Reports
 =========================
@@ -17,7 +13,7 @@ Account Financial Reports
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Faccount--financial--reporting-lightgray.png?logo=github
@@ -55,6 +51,10 @@ currency balances are not available.
 Invoicing / Settings / Invoicing / OCA Aged Report Configuration you will be able to set
 dynamic intervals that will appear on the Aged Partner Balance.
 For further information, check CONFIGURE.rst
+
+In the Trial Balance, the flag *Hide accounts with 0 end balance*
+allows the user to hide accounts that
+have ending balance equal to 0 in the selected period.
 
 **Table of contents**
 
@@ -195,6 +195,9 @@ Contributors
 * Lois Rilo <lois.rilo@forgeflow.com>
 * Saran Lim. <saranl@ecosoft.co.th>
 * Omar Castiñeira <omar@comunitea.com>
+* `PyTech <https://www.pytech.it>`_:
+
+  * Simone Rubino <simone.rubino@pytech.it>
 
 Much of the work in this module was done at a sprint in Sorrento, Italy in
 April 2016.
